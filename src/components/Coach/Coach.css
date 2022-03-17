@@ -1,0 +1,41 @@
+.coachContainer{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 3px solid #E2E9F9;
+    margin-top: 5px;
+}
+
+.coachContainer h2{
+    margin: 0;
+}
+
+.coachContainer >div{
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    flex-flow: column;
+}
+
+
+.coach-grid.active{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.coach-grid{
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.dropBox{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.dropBox:hover{
+    background-color: #bed0fa;
+}

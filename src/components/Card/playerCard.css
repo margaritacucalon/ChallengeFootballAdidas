@@ -22,7 +22,7 @@
 }
 .playerCard >div{
   font-size: large;
-  margin:4px 0px 12px;
+  margin:4px 0px;
 }
 .playerCard >span{
   color: rgb(53, 52, 52);
@@ -50,7 +50,6 @@ button.delete{
   width: 100%;
   height: 3rem;
   font-size: 2rem;
-  display: flex;
   justify-content: center;
   transform: translate(-50%, 0%);
   left: 50%;

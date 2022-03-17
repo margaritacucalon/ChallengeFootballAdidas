@@ -1,13 +1,8 @@
-import { useEffect, useState } from "react";
-import { MYTEAM } from "../constants";
-import PlayerCard from "./Card/PlayerCard";
+
+import PlayerCard from "../Card/PlayerCard";
 import './Team.css';
 
 export default function Team({ myTeam, totalPlayers, onPlayerRemove }) {
-  //REservar posiciones para defensa,
-  //Mostrar jugadores
-
-  //Eliminar jugadores
 
   return (
     <div data-testid='myTeam' className="myTeamContainer">
@@ -18,9 +13,9 @@ export default function Team({ myTeam, totalPlayers, onPlayerRemove }) {
           <ul>
             <li>1 coach</li>
             <li>4 or more defenders</li>
-            <li>4 or more defenders</li>
-            <li>4 or more defenders</li>
-            <li>4 or more defenders</li>
+            <li>4 or more midfielders</li>
+            <li>2 or more attackers</li>
+            <li>2 or more goalkeepers</li>
             <li>Max 16 players</li>
             <li>Max 4 players from the same national team</li>
           </ul>
