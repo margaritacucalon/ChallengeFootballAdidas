@@ -1,0 +1,28 @@
+
+.App {
+  font-family: sans-serif;
+}
+
+ul{
+  width: 20vw;
+  list-style-type: none;
+  padding: 0;
+}
+
+button{
+  cursor: pointer;
+  width: 100%;
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+img{
+  width: 2rem;
+  height: 2rem;
+}

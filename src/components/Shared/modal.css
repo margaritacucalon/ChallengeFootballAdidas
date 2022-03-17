@@ -1,0 +1,32 @@
+.modal-wrapper{
+  z-index: 1;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(1, 1, 1, .2);
+  display:grid;
+  place-items: center;
+  
+}
+
+.modal-wrapper .modal{
+  font-size: 2rem;
+  width: 40%;
+  height: 50%;
+  background-color:#E3E3F3;
+  text-align: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal button{
+  border: 1px solid #a8a8b8;
+    width: 50%;
+    height: 3rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8rem;
+}

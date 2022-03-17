@@ -1,0 +1,62 @@
+.list {
+  display: flex;
+  align-items:flex-start;
+}
+
+.list .listItems{
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 1rem;
+}
+
+.listItems ul li:hover button{
+  background-color: #bed0fa;
+}
+
+
+.listItems ul li button{
+  border-radius: 1rem;
+  background-color: #E2E9F9;
+}
+.listItems ul li button.active{
+  background-color: #bed0fa;
+}
+.player-grid{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+
+button.add{
+  background-color: white;
+  position: absolute;
+  border-radius: 3rem;
+  border: 1px solid black;
+  width: 1rem;
+  height: 1rem;
+  padding: 0in;
+  right: 0;
+  bottom: 0;
+  margin: 0.3rem;
+}
+
+button .iconArrow{
+  display: none;
+}
+
+button:hover .iconArrow, button.active .iconArrow{
+  display: inline;
+}
+
+button.btnList{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+button.btnList >div{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
